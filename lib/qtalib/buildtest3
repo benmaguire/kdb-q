@@ -1,0 +1,2 @@
+gcc -c -m32 -I/home/benmaguire/dump/talibdeb/usr/include/ta-lib -L/home/benmaguire/dump/talibdeb/usr/lib test.c -o test.o -lta_lib -lm
+gcc -m32 -I/home/benmaguire/dump/talibdeb/usr/include/ta-lib -L/home/benmaguire/dump/talibdeb/usr/lib test.o /home/benmaguire/dump/talibdeb/usr/lib/libta_lib.a -o test -lta_lib -lm

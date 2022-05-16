@@ -1,0 +1,2 @@
+gcc -Wall -Wl,-rpath=/usr/lib/i386-linux-gnu -march=i386 -m32 -DDEBUG -DKXVER=3 -I. -L/usr/lib/i386-linux-gnu -shared -o qjsonp.so qjsonp.c -ljson
+cp qjsonp.so /export/q/l32/

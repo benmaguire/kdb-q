@@ -1,0 +1,2 @@
+gcc -c -m32 -I/home/benmaguire/dump/ta-lib/include -L/home/benmaguire/dump/ta-lib/src/.libs test.c -o test.o -lta_lib -lm
+gcc -m32 -I/home/benmaguire/dump/ta-lib/include -L/home/benmaguire/dump/ta-lib/src/.libs test.o /home/benmaguire/dump/ta-lib/src/.libs/libta_lib.a -o test -lta_lib -lm

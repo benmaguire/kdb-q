@@ -1,0 +1,2 @@
+gcc -Wall -Wl,-rpath=/usr/lib/i386-linux-gnu -march=i386 -m32 -DDEBUG -DKXVER=3  -DTHREADED -I/usr/include/zookeeper -I. -L/usr/lib/i386-linux-gnu -shared -o qzk.so qzk.c -lzookeeper_mt
+cp qzk.so /export/q/l32/

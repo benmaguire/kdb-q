@@ -1,0 +1,3 @@
+gcc -c -shared -m32 -fPIC -I/export/dev/src/ta-lib/include -L/export/dev/src/ta-lib/src/.libs -o qtalib.o qtalib.c -lta_lib -lm
+gcc -m32 -shared -fPIC -I/export/dev/src/ta-lib/include -L/export/dev/src/ta-lib/src/.libs qtalib.o /export/dev/src/ta-lib/src/.libs/libta_lib.a -o qtalib.so -lta_lib -lm
+
